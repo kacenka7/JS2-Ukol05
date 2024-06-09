@@ -1,0 +1,31 @@
+.container{
+  margin: 50px 0;
+  width: 100%;
+  max-width: 100%;
+}
+
+.city{
+  margin: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.text{
+  flex-basis: 40%;
+}
+
+.photo{
+  display: flex;
+  align-items: center;
+  flex-basis: 60%;
+  object-fit: cover;
+
+
+}
+
+.name{
+  font-weight: bold;
+}
+
+
