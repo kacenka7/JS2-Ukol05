@@ -9,9 +9,9 @@ import { cities } from './cz-cities';
 const Print = () => {
   return (
     <div className ="cityList"> 
-      {cities.map((city) => {
+      {cities.map((item, index) => {
        return (
-          City(city.name, city.photo, city.population, city.area, city.district)
+        <City  index = {index} name={item.name} photo = {item.photo} population = {item.population} area = {item.area} district = {item.district} />
       )})
       }
     </div>
