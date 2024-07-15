@@ -11,7 +11,7 @@ const Print = () => {
     <div className ="cityList"> 
       {cities.map((item, index) => {
        return (
-        <City  index = {index} name={item.name} photo = {item.photo} population = {item.population} area = {item.area} district = {item.district} />
+        <City key="city" index = {index} name={item.name} photo = {item.photo} population = {item.population} area = {item.area} district = {item.district} />
       )})
       }
     </div>
